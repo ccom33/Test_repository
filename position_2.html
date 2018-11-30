@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+<head>
+    <title>positon 2</title>
+	<style>
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+            z-index: 3;
+        }
+        .box:nth-child(2) {
+            background-color: palegreen;
+            left: 50px; top: 50px;
+            z-index: 2;
+        }
+        .box:nth-child(3) {
+            background-color: aquamarine;
+            left: 90px; top: 90px;
+            z-index: 1;
+        }
+        .h1 {
+            position: absolute;
+            z-index: 4;
+        }
+    </style>
+</head>
+	<body>
+        <h1 class='h1'>Lord ipsum</h1>
+        <div>
+            <div class='box'></div>
+            <div class='box'></div>
+            <div class='box'></div>
+        </div>
+	</body>
+</html>
