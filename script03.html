@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+<head>
+    <title>script 3</title>
+	<script>
+        // Date 객체를 선언합니다: 현재시간 측정
+        var date = new Date();
+        var hours = date.getHours();
+        
+        // 조건문
+        if (hours < 5) {
+            alert('잘시간 입니다');
+        } else {
+            if (hours < 7) {
+                alert('준비');
+            } else {
+                if (hours < 9) {
+                    alert('출근');
+                } else {
+                    if (hours < 12) {
+                        alert('놀자놀아');
+                    } else {
+                        if (hours < 12){
+                            alert('또놀자놀아');
+                        } else {
+                            if (hours < 1) {
+                                alert('밥먹기');
+                            } else {
+                                //여러 가지 업무 수행
+                                alert('일하는중');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+	<body>
+
+	</body>
+</html>
