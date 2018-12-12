@@ -1,0 +1,136 @@
+@charset 'utf-8';
+@import url('font.css');
+
+body {
+	/*background: blue;*/
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", serif;
+	font-size: 12px;
+}
+div {
+	position: relative;
+	
+}
+
+#wrap {
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	background: yellow;
+}
+
+#logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80px;
+	height: 80px;
+	background: palegreen;
+}
+
+#gnb {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 600px;
+	height: 60px;
+	background: skyblue;
+}
+
+#menu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	width: 600px;
+	height: 60px;
+	background: red;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+
+	overflow: hidden;
+}
+
+#left {
+	position: relative;
+	width: 30%;
+	min-height: 400px;
+	background: blue;
+
+	float: left;
+}
+
+#right {
+	position: relative;
+	width: 70%;
+	min-height: 600px;
+	background: pink;
+
+	float: right;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background: gray;
+}
+
+#f_logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	background: black;
+}
+
+#copyright {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 500px;
+	height: 40px;
+	background: black;
+}
+
+.box {
+	position: relative;
+	width: 45%;
+	height: 150px;
+	background: purple !important;
+	margin-right: 5%;
+	margin-bottom: 10px;
+
+	float: left;
+}
+
+.red {
+	background: red;
+}
+
+div[id='logo'] {
+	background: black !important;
+}
+
+span[class='box red'] {
+	border: 10px solid black ;
+}
+
+div[over='bt']:hover {
+	background: yellow !important;
+	cursor: pointer;
+}
