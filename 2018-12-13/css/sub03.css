@@ -1,0 +1,73 @@
+@charset 'utf-8';
+@import url('font.css');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", serif;
+	font-size: 14px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#wrap {
+	position: relative;
+	display: block;
+
+	margin: auto;
+	margin-top: 50px;
+
+	/*visibility: hidden;*/
+	width: 960px;                                             
+	height: 300px;
+
+	background: yellow;
+
+	text-align: center;
+}
+
+#middleV:before {
+	content: '';
+
+	height: 300px;
+	display: inline-block;
+
+	vertical-align: middle;
+}
+
+
+
+}
+
+#menu {
+	position: relative;
+	background: pink;
+
+	display: inline-block;
+}
+
+#menu > span {
+	display: block;
+	width: 20%;
+	background: #ffffff;
+	border: 3px solid black;
+
+	float: left;
+}
+
+#visual {
+	position: relative;
+
+	height: 400px;
+	background: red;
+}
